@@ -1,9 +1,9 @@
 # Xianjing_Huang_Mini_Proj_4
-[![CI](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_1/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_1/actions/workflows/ci.yml)
+[![CI](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_4/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_4/actions/workflows/ci.yml)
 
 ### Directory Tree Structure
 ```
-Xianjing_Huang_Mini_Proj_3/
+Xianjing_Huang_Mini_Proj_4/
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -38,4 +38,5 @@ Xianjing_Huang_Mini_Proj_3/
 3. Test code `make test`
    ![3](/imgs/003.png)
 
-### Github actions with matrix strategy 
+### Github actions with matrix strategy
+   <img src="/imgs/004.png" alt="0" height="350">
