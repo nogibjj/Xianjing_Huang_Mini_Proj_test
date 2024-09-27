@@ -1,14 +1,41 @@
-# Xianjing_Huang_Mini_Proj_1
+# Xianjing_Huang_Mini_Proj_4
 [![CI](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_1/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Xianjing_Huang_Mini_Proj_1/actions/workflows/ci.yml)
 
- - requirements.txt: project dependencies
- - Makefile: install format lint test
- - GitHub Actions: a continuous integration and continuous delivery (CI/CD) platform
- - devcontainer: config for a Python environment
+### Directory Tree Structure
+```
+Xianjing_Huang_Mini_Proj_3/
+├── .devcontainer/
+│   ├── devcontainer.json
+│   └── Dockerfile
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── imgs/
+├── .gitignore
+├── main.py
+├── Makefile
+├── README.md
+├── requirements.txt
+└── test_main.py
+```
 
- I run the Makefile as follows: `make install`, `make test`, `make format`, `make lint`. The following pictures show the pass results:
+### Requirements
+* Set up a Gitlab Actions workflow
+* Test across at least 3 different Python versions
 
-![1](/imgs/001.png)
-![2](/imgs/002.png)
-![3](/imgs/003.png)
-![4](/imgs/004.png)
+
+### Preparation
+1. Open codespaces
+2. Wait for container to be built and pinned requirements from `requirements.txt` to be installed
+3. If running locally, `git clone` the repository and use `make install`
+   ![0](/imgs/000.png)
+
+### Check format and test errors
+1. Format code `make format`
+   ![1](/imgs/001.png)
+2. Lint code `make lint`
+   ![2](/imgs/002.png)
+3. Test code `make test`
+   ![3](/imgs/003.png)
+
+### Github actions with matrix strategy 
