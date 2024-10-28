@@ -1,11 +1,11 @@
-customer_id,customer_name,city
-1,Alice,New York
-2,Bob,Los Angeles
-3,Charlie,Miami
-4,David,Houston
-5,Evan,Durham
-6,Frank,Chicago
-7,Grace,Atlanta
-8,Helen,Charlotte
-9,Ian,Philadelphia
-10,Julia,Chicago
+id,name,gender,city
+1,Alice,female,New York
+2,Bob,male,Los Angeles
+3,Charlie,male,Miami
+4,David,male,Houston
+5,Evan,male,Durham
+6,Frank,male,Chicago
+7,Grace,female,Atlanta
+8,Helen,female,Charlotte
+9,Ian,female,Philadelphia
+10,Julia,female,Chicago
